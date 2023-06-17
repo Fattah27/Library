@@ -162,16 +162,15 @@ if($Judul && $Pengarang && $Penerbit && $Tahun_terbit && $Jumlah_hal) {
             </div>
 
             <div class="col-12">
-              <input type="submit" name="simpan" value="Simpan" class="btn btn-primary" />
+              <input type="submit" name="simpan" value="Simpan" class="btn btn-primary" /> <a class="text-center w-100 bg-black" href="index.php?op=tambahdata">
+              <button type="button" class="btn btn-primary">Tambah data</button></a> 
             </div>
 
           </form>
         </div>
       </div>
     </div>
-
-    <a href="index.php?op=tambahdata">
-        <button type="button" class="btn btn-primary">Tambah data</button></a> 
+    
 
     <!-- untuk mengeluarkan data -->
     <div class="mx-auto">
